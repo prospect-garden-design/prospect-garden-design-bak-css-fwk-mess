@@ -3,7 +3,10 @@ var Fiber = require('fibers');
 var fs = require('fs');
 
 const srcPathBase = 'src/';
-const srcPathArr = [srcPathBase + 'primitive/primitive-light.scss'];
+const srcPathArr = [
+  srcPathBase + 'primitive/primitive-light.scss',
+  srcPathBase + 'pico/pico-light.scss',
+];
 const outDir = 'dist/';
 
 function generateOutputNameFromSrcPath(path) {

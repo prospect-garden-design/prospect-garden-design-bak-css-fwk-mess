@@ -16,7 +16,8 @@ a:focus {
 
 header {
 	margin-top: 60px;
-	background: #2A55F1 url('../images/grid.png') no-repeat left center / cover;
+	/* background: #2A55F1 url('../images/grid.png') no-repeat left center / cover; */
+	background: teal url('../images/grid.png') no-repeat left center / cover;
 	padding: 60px 0;
 }
 
