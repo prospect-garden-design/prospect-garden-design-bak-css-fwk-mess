@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -47,7 +47,7 @@
       <p>There are two options for using Primitive.</p>
       <div class="flex-row padding-top">
         <div class="flex-large flex-50">
-          <img src="images/css3.png" class="logos" />
+          <!-- <img src="images/css3.png" class="logos" /> -->
           <h4><strong>CSS</strong> (easy)</h4>
           <p>
             <a href="https://taniarascia.github.io/primitive/css/main.css" download>Download the stylesheet</a>, link to
@@ -56,7 +56,7 @@
           </p>
         </div>
         <div class="flex-large flex-50">
-          <img src="images/sass.png" class="logos" />
+          <!-- <img src="images/sass.png" class="logos" /> -->
           <h4><strong>Sass</strong> (recommended)</h4>
           <p>
             <a href="#sass-main">Download the source</a> and set up a Sass workflow with npm
@@ -69,6 +69,8 @@
 
   <section class="primitive">
     <div class="flex-container">
+
+      <!-- 目录部分，移动端会隐藏为汉堡菜单 -->
       <aside>
         <div class="toggle-nav"></div>
         <h1>
@@ -154,7 +156,9 @@
                   an empty JavaScript file, and a Favicon.
                 </li>
               </ul>
-              <pre><code class="language-html">&lt;!doctype html&gt;
+              <pre>
+            <code class="language-html">
+&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 
 &lt;head&gt;
@@ -170,7 +174,9 @@
 
 &lt;body&gt;&lt;/body&gt;
 
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code>
+</pre>
 
               <p>View all HTML5 with Primitive CSS applied to them.</p>
               <p>
@@ -402,7 +408,9 @@
                 To express that action was successful, you can use <code>is-success</code> class.
                 If user's input has some errors, <code>has-error</code> class may be good for you.
               </p>
-              <pre><code class="language-html">&lt;input type=&quot;text&quot; id=&quot;name&quot; placeholder=&quot;Name&quot; class=&quot;has-error&quot;&gt;</code><br><code class="language-html">&lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;Email&quot; class=&quot;is-success&quot;&gt;</code></pre>
+              <pre><code class="language-html">&lt;input type=&quot;text&quot; id=&quot;name&quot; placeholder=&quot;Name&quot; class=&quot;has-error&quot;&gt;</code>
+                <br /><code class="language-html">&lt;input type=&quot;email&quot; id=&quot;email&quot; placeholder=&quot;Email&quot; class=&quot;is-success&quot;&gt;</code>
+              </pre>
               <form>
                 <label for="name-error">Name</label>
                 <input type="text" id="name-error" placeholder="Name" class="has-error" />
@@ -416,7 +424,8 @@
             <article>
               <h2>Tables</h2>
               <p>Tables are set to a width of 100%, with a bottom border and bold headings.</p>
-              <pre><code class="language-html">&lt;table&gt;
+              <pre><code class="language-html">
+&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt;Head 1&lt;/th&gt;
@@ -448,7 +457,8 @@
       &lt;td&gt;Description 3&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</code></pre>
+&lt;/table&gt;
+</code></pre>
               <table>
                 <thead>
                   <tr>
@@ -541,7 +551,8 @@
                   <tbody>
                     <tr>
                       <td>
-                        <a href="https://taniarascia.github.io/primitive">https://taniarascia.github.io/primitive</a>
+                        <a href="https://taniarascia.github.io/primitive">https://taniarascia.github.io/primitive
+                          https://taniarascia.github.io/primitive</a>
                       </td>
                       <td>Description 2</td>
                       <td>Description 3</td>
@@ -1165,7 +1176,7 @@ $code-borders: $borders !default;
   <script src="js/jquery.min.js"></script>
   <script src="js/prism.js"></script>
   <script src="js/example.js"></script>
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script async defer src="js/buttons.js"></script>
 </body>
 
 </html>

@@ -6,6 +6,7 @@ const srcPathBase = 'src/';
 const srcPathArr = [
   srcPathBase + 'primitive/primitive-light.scss',
   srcPathBase + 'pico/pico-light.scss',
+  srcPathBase + 'bootstrap/bootstrap-light.scss',
 ];
 const outDir = 'dist/';
 
